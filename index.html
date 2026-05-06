@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Plans · Aniket</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --forest: #1c3a28;
+    --moss:   #2e5c3e;
+    --sage:   #5a8a6a;
+    --cream:  #f5f2ec;
+    --mist:   #e8ede9;
+    --ink:    #1a1e1b;
+    --slate:  #4a5450;
+    --amber:  #b86a1a;
+    --rule:   rgba(30,58,40,0.12);
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ── HEADER ── */
+  header {
+    padding: 48px 40px 40px;
+    border-bottom: 1.5px solid var(--forest);
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .site-eyebrow {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 10px;
+  }
+
+  .site-title {
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--forest);
+    line-height: 1.15;
+    margin-bottom: 10px;
+  }
+
+  .site-title em {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .site-desc {
+    font-size: 14px;
+    color: var(--slate);
+    line-height: 1.6;
+    max-width: 440px;
+  }
+
+  /* ── MAIN ── */
+  main {
+    flex: 1;
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px 40px 80px;
+  }
+
+  .section-label {
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 20px;
+  }
+
+  /* ── TRIP GRID ── */
+  .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin-bottom: 56px;
+  }
+
+  .trip-card {
+    display: block;
+    text-decoration: none;
+    background: white;
+    border: 0.5px solid var(--rule);
+    border-radius: 12px;
+    padding: 22px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .trip-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--forest);
+    opacity: 0;
+    transition: opacity 0.18s ease;
+  }
+
+  .trip-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(28,58,40,0.08);
+    border-color: rgba(30,58,40,0.25);
+  }
+
+  .trip-card:hover::before { opacity: 1; }
+
+  .trip-card.upcoming {
+    background: var(--mist);
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .trip-card.upcoming::before { display: none; }
+
+  .card-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+
+  .badge-active {
+    background: var(--forest);
+    color: #c8e6c9;
+  }
+
+  .badge-upcoming {
+    background: rgba(30,58,40,0.08);
+    color: var(--slate);
+  }
+
+  .card-dates {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--sage);
+    margin-bottom: 6px;
+  }
+
+  .card-title {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+
+  .trip-card.upcoming .card-title { color: var(--slate); }
+
+  .card-meta {
+    font-size: 12px;
+    color: var(--slate);
+    line-height: 1.5;
+  }
+
+  .card-arrow {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    font-size: 16px;
+    color: var(--sage);
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .trip-card:hover .card-arrow {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .card-stops {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
+  .stop-pill {
+    font-size: 10px;
+    background: var(--mist);
+    color: var(--slate);
+    padding: 2px 9px;
+    border-radius: 20px;
+  }
+
+  .trip-card:not(.upcoming) .stop-pill {
+    background: rgba(28,58,40,0.07);
+    color: var(--forest);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 0.5px solid var(--rule);
+    padding: 20px 40px;
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+  }
+
+  .footer-left {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--forest);
+  }
+
+  .footer-right {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slate);
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  header        { animation: fadeUp 0.4s ease both; }
+  .section-label{ animation: fadeUp 0.4s ease 0.1s both; }
+  .trip-card    { animation: fadeUp 0.4s ease both; }
+  .trip-card:nth-child(1) { animation-delay: 0.15s; }
+  .trip-card:nth-child(2) { animation-delay: 0.22s; }
+  .trip-card:nth-child(3) { animation-delay: 0.29s; }
+  .trip-card:nth-child(4) { animation-delay: 0.36s; }
+
+  /* ── MOBILE ── */
+  @media (max-width: 600px) {
+    header { padding: 32px 20px 28px; }
+    .site-title { font-size: 28px; }
+    main { padding: 32px 20px 64px; }
+    .trip-grid { grid-template-columns: 1fr; }
+    footer { padding: 20px; flex-direction: column; gap: 6px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="site-eyebrow">Aniket's Travel Plans</p>
+  <h1 class="site-title">Adventures,<br><em>documented.</em></h1>
+  <p class="site-desc">A collection of trip itineraries — routes, stops, food, and everything in between.</p>
+</header>
+
+<main>
+  <div class="section-label">All Trips</div>
+  <div class="trip-grid">
+
+    <!-- Portland / Oregon Trip — LIVE -->
+    <a class="trip-card" href="./2026_05_08_Portland/index.html">
+      <span class="card-arrow">→</span>
+      <div class="card-badge badge-active">Active</div>
+      <div class="card-dates">May 7 – 11, 2026</div>
+      <div class="card-title">Portland, Oregon &amp; Washington</div>
+      <div class="card-meta">Columbia River Gorge · Mt. Hood · Silver Falls · 5 days</div>
+      <div class="card-stops">
+        <span class="stop-pill">Multnomah Falls</span>
+        <span class="stop-pill">Trillium Lake</span>
+        <span class="stop-pill">Silver Falls</span>
+        <span class="stop-pill">+more</span>
+      </div>
+    </a>
+
+    <!-- Placeholder 2 -->
+    <div class="trip-card upcoming">
+      <div class="card-badge badge-upcoming">Coming soon</div>
+      <div class="card-dates">— — , 2026</div>
+      <div class="card-title">Next Adventure</div>
+      <div class="card-meta">Details coming soon.</div>
+    </div>
+
+    <!-- Placeholder 3 -->
+    <div class="trip-card upcoming">
+      <div class="card-badge badge-upcoming">Coming soon</div>
+      <div class="card-dates">— — , 2026</div>
+      <div class="card-title">Next Adventure</div>
+      <div class="card-meta">Details coming soon.</div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <span class="footer-left">TravelPlans · Aniket</span>
+  <span class="footer-right">github.com/aniketvjadhav</span>
+</footer>
+
+</body>
+</html>
