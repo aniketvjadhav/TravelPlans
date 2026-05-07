@@ -1,0 +1,921 @@
+{
+  "meta": {
+    "trip_name": "Portland, Oregon & Washington",
+    "dates": "May 7–11, 2026",
+    "total_days": 5,
+    "region": "Oregon · Washington"
+  },
+  "days": [
+    {
+      "id": "day1",
+      "type": "day",
+      "nav": {
+        "date": "May 7",
+        "loc": "Arrival"
+      },
+      "header": {
+        "eyebrow": "Arrival Day · May 7, 2026 · Thursday",
+        "title": "PDX Arrival",
+        "subtitle": "& First Night",
+        "route": [
+          "PDX Airport",
+          "→ Dinner",
+          "→ Hotel"
+        ],
+        "sunrise": null,
+        "sunset": null,
+        "weather_summary": "Everyone meets at PDX · Dinner · Grocery stop · Rest & prep for tomorrow"
+      },
+      "weather": [],
+      "sections": [
+        {
+          "type": "timeline",
+          "label": "Arrival Timeline",
+          "items": [
+            {
+              "time": "~5:30 PM",
+              "title": "Everyone Meets at PDX Airport",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Regroup at Portland International Airport. Collect bags, get organized."
+            },
+            {
+              "time": "~6:30 PM",
+              "title": "Car Pickup — Target Time",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": null,
+              "tags": [
+                {
+                  "label": "Best case · 6:30 PM",
+                  "type": "preferred"
+                }
+              ],
+              "note": "Pick up rental car(s) by 6:30 PM. Head straight to dinner from the airport."
+            },
+            {
+              "time": "Evening",
+              "title": "Dinner",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": null,
+              "tags": [
+                {
+                  "label": "Group pick",
+                  "type": "preferred"
+                }
+              ],
+              "note": "Choose from the options below. See food section for ratings and cuisine type."
+            },
+            {
+              "time": "On the way",
+              "title": "Grocery Stop",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Quick stop at Safeway, Walmart, or Target on the way to the hotel."
+            },
+            {
+              "time": "Night",
+              "title": "Check In & Rest",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Settle in, rest up, and prep for an early start on Friday. Departure is at 7:00 AM."
+            }
+          ]
+        },
+        {
+          "type": "food",
+          "label": "Dinner Options",
+          "subsections": [
+            {
+              "sublabel": null,
+              "sublabel_color": null,
+              "items": [
+                {
+                  "name": "Mamma Khouri's Mediterranean",
+                  "address": "3808 N Williams Ave, Portland, OR",
+                  "rating": 4.7,
+                  "cuisine": "Mediterranean",
+                  "maps_url": "https://maps.google.com/?q=Mamma+Khouri%27s+Mediterranean+3808+N+Williams+Ave+Portland+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "Bete-Lukas Ethiopian Restaurant",
+                  "address": "2504 SE 50th Ave D, Portland, OR",
+                  "rating": 4.7,
+                  "cuisine": "Ethiopian",
+                  "maps_url": "https://maps.google.com/?q=Bete-Lukas+Ethiopian+Restaurant+2504+SE+50th+Ave+Portland+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "Thai Seasons Restaurant",
+                  "address": "5824 NE Sandy Blvd, Portland, OR",
+                  "rating": 4.5,
+                  "cuisine": "Thai",
+                  "maps_url": "https://maps.google.com/?q=Thai+Seasons+Restaurant+5824+NE+Sandy+Blvd+Portland+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "de Fuego Grille",
+                  "address": "12566 SE 93rd Ave, Clackamas, OR",
+                  "rating": 4.3,
+                  "cuisine": "South American",
+                  "maps_url": "https://maps.google.com/?q=de+Fuego+Grille+12566+SE+93rd+Ave+Clackamas+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "Sivalai Thai Restaurant",
+                  "address": "4806 SE Stark St, Portland, OR",
+                  "rating": 4.1,
+                  "cuisine": "Thai",
+                  "maps_url": "https://maps.google.com/?q=Sivalai+Thai+Restaurant+4806+SE+Stark+St+Portland+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "Olive Garden",
+                  "address": "8700 SE Sunnyside Rd, Clackamas, OR",
+                  "rating": 4.2,
+                  "cuisine": "Italian",
+                  "maps_url": "https://maps.google.com/?q=Olive+Garden+8700+SE+Sunnyside+Rd+Clackamas+OR",
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "decision",
+          "label": "Grocery Stop — On the Way to Hotel",
+          "columns": 3,
+          "items": [
+            {
+              "badge": "Option 1",
+              "type": "preferred",
+              "name": "Safeway",
+              "desc": "95 82nd Dr, Gladstone, OR 97027",
+              "maps_url": "https://maps.google.com/?q=Safeway+95+82nd+Dr+Gladstone+OR"
+            },
+            {
+              "badge": "Option 2",
+              "type": "preferred",
+              "name": "Walmart",
+              "desc": "10000 SE 82nd Ave, Happy Valley, OR 97086",
+              "maps_url": "https://maps.google.com/?q=Walmart+10000+SE+82nd+Ave+Happy+Valley+OR"
+            },
+            {
+              "badge": "Option 3",
+              "type": "preferred",
+              "name": "Target",
+              "desc": "9800 SE Washington St, Portland, OR 97216",
+              "maps_url": "https://maps.google.com/?q=Target+9800+SE+Washington+St+Portland+OR"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": "May 7–11, 2026 Trip · Day 1 of 5",
+        "right": "Portland · Oregon"
+      },
+      "hotel_card": {
+        "type": "check_in",
+        "hotel_index": 0
+      }
+    },
+    {
+      "id": "day2",
+      "type": "day",
+      "nav": {
+        "date": "May 8",
+        "loc": "Columbia River"
+      },
+      "header": {
+        "eyebrow": "Day Trip · May 8, 2026 · Friday",
+        "title": "Columbia River Gorge",
+        "subtitle": "& Washington Waterfalls",
+        "route": [
+          "Portland, OR → Gorge",
+          "→ Stevenson, WA",
+          "→ Lewis River Falls"
+        ],
+        "sunrise": "5:48 AM",
+        "sunset": "8:26 PM",
+        "weather_summary": "Cool morning · Mild afternoon · Partly cloudy all day"
+      },
+      "weather": [
+        {
+          "time": "6 AM",
+          "icon": "🌤️",
+          "temp": "47°F",
+          "wind": "6 mph"
+        },
+        {
+          "time": "8 AM",
+          "icon": "⛅",
+          "temp": "50°F",
+          "wind": "6 mph"
+        },
+        {
+          "time": "10 AM",
+          "icon": "⛅",
+          "temp": "56°F",
+          "wind": "6 mph"
+        },
+        {
+          "time": "12 PM",
+          "icon": "⛅",
+          "temp": "62°F",
+          "wind": "7 mph"
+        },
+        {
+          "time": "2 PM",
+          "icon": "⛅",
+          "temp": "67°F",
+          "wind": "8 mph"
+        },
+        {
+          "time": "4 PM",
+          "icon": "⛅",
+          "temp": "70°F",
+          "wind": "9 mph"
+        },
+        {
+          "time": "6 PM",
+          "icon": "⛅",
+          "temp": "70°F",
+          "wind": "6 mph"
+        },
+        {
+          "time": "8 PM",
+          "icon": "🌤️",
+          "temp": "65°F",
+          "wind": "4 mph"
+        }
+      ],
+      "sections": [
+        {
+          "type": "timeline",
+          "label": "Day Timeline",
+          "items": [
+            {
+              "time": "7:00 AM",
+              "title": "Depart Hotel",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Drive toward Columbia River Gorge."
+            },
+            {
+              "time": "7:30–\n8:45 AM",
+              "title": "Bridal Veil Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=Bridal+Veil+Falls+Oregon",
+              "tags": [
+                {
+                  "label": "Waterfall · 75 min",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "Walk and short hike around the falls area. A quiet, photogenic start before the crowds arrive."
+            },
+            {
+              "time": "8:45–\n9:00 AM",
+              "title": "Drive to Multnomah Falls",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Short drive along Historic Columbia River Hwy."
+            },
+            {
+              "time": "9:00–\n10:30 AM",
+              "title": "Multnomah Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=Multnomah+Falls+Oregon",
+              "tags": [
+                {
+                  "label": "Main Stop · 90 min",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "Iconic 620-ft two-tiered falls. Optional walk up to Benson Bridge and the upper viewing area."
+            },
+            {
+              "time": "10:30–\n11:00 AM",
+              "title": "Drive to Lunch Place",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "~30 min drive toward Stevenson / Cascade Locks."
+            },
+            {
+              "time": "11:00 AM–\n12:00 PM",
+              "title": "Lunch Stop — Stevenson, WA",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": null,
+              "tags": [
+                {
+                  "label": "Food break · 1 hr",
+                  "type": "preferred"
+                }
+              ],
+              "note": "Sit-down or quick stop depending on group energy. See food options below."
+            },
+            {
+              "time": "12:00–\n2:00 PM",
+              "title": "Lower Lewis River Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=Lower+Lewis+River+Falls+Washington",
+              "tags": [
+                {
+                  "label": "Preferred · 2 hrs",
+                  "type": "preferred"
+                },
+                {
+                  "label": "Alt: Panther Creek Falls",
+                  "type": "backup"
+                }
+              ],
+              "note": "Best overall waterfall option for the group. Spectacular tiered cascade with easy trail access. Panther Creek is a solid backup."
+            },
+            {
+              "time": "2:00 PM+",
+              "title": "Flexible Afternoon",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Return drive, additional scenic stops, or relaxed evening. Sunset at 8:26 PM."
+            }
+          ]
+        },
+        {
+          "type": "food",
+          "label": "Food Options Near Stevenson & Cascade Locks",
+          "subsections": [
+            {
+              "sublabel": null,
+              "sublabel_color": null,
+              "items": [
+                {
+                  "name": "Coronas Mexican Food Truck",
+                  "address": "160 2nd St, Stevenson, WA",
+                  "rating": 4.9,
+                  "cuisine": "Quick stop",
+                  "maps_url": "https://maps.google.com/?q=Coronas+Mexican+Food+Truck+160+2nd+St+Stevenson+WA",
+                  "highlight": false
+                },
+                {
+                  "name": "Big River Grill",
+                  "address": "192 2nd St, Stevenson, WA",
+                  "rating": 4.6,
+                  "cuisine": "Full meal",
+                  "maps_url": "https://maps.google.com/?q=Big+River+Grill+192+2nd+St+Stevenson+WA",
+                  "highlight": false
+                },
+                {
+                  "name": "Red Bluff Tap House",
+                  "address": "256 2nd St, Stevenson, WA",
+                  "rating": 4.5,
+                  "cuisine": "Gastropub",
+                  "maps_url": "https://maps.google.com/?q=Red+Bluff+Tap+House+256+2nd+St+Stevenson+WA",
+                  "highlight": false
+                },
+                {
+                  "name": "Ixtapa Mexican Restaurant",
+                  "address": "299 SW Portage Rd, Cascade Locks, OR",
+                  "rating": 4.3,
+                  "cuisine": "Sit-down",
+                  "maps_url": "https://maps.google.com/?q=Ixtapa+Mexican+Restaurant+299+SW+Portage+Rd+Cascade+Locks+OR",
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "decision",
+          "label": "Afternoon Waterfall — Decision",
+          "columns": 2,
+          "items": [
+            {
+              "badge": "Preferred",
+              "type": "preferred",
+              "name": "Lower Lewis River Falls",
+              "desc": "Best overall option. Rewarding stop with multi-tiered falls and scenic trail.",
+              "maps_url": "https://maps.google.com/?q=Lower+Lewis+River+Falls+Washington"
+            },
+            {
+              "badge": "Backup",
+              "type": "backup",
+              "name": "Panther Creek Falls",
+              "desc": "Good alternative depending on group preference and timing.",
+              "maps_url": "https://maps.google.com/?q=Panther+Creek+Falls+Washington"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": "May 7–11, 2026 Trip · Day 2 of 5",
+        "right": "Oregon · Washington"
+      }
+    },
+    {
+      "id": "day3",
+      "type": "day",
+      "nav": {
+        "date": "May 9",
+        "loc": "Mt. Hood"
+      },
+      "header": {
+        "eyebrow": "Day Trip · May 9, 2026 · Saturday",
+        "title": "Portland Lunch",
+        "subtitle": "& Mt. Hood",
+        "route": [
+          "Portland → Salty's",
+          "→ Sahalie Falls",
+          "→ Trillium Lake"
+        ],
+        "sunrise": "5:47 AM",
+        "sunset": "8:27 PM",
+        "weather_summary": "Mild & partly sunny · Cooler near Trillium Lake in the evening"
+      },
+      "weather": [
+        {
+          "time": "6 AM",
+          "icon": "🌤️",
+          "temp": "52°F",
+          "wind": "3–5 mph"
+        },
+        {
+          "time": "8 AM",
+          "icon": "🌤️",
+          "temp": "56°F",
+          "wind": "3–5 mph"
+        },
+        {
+          "time": "10 AM",
+          "icon": "🌤️",
+          "temp": "63°F",
+          "wind": "4–6 mph"
+        },
+        {
+          "time": "12 PM",
+          "icon": "🌤️",
+          "temp": "69°F",
+          "wind": "4–7 mph"
+        },
+        {
+          "time": "2 PM",
+          "icon": "🌤️",
+          "temp": "69°F",
+          "wind": "5–8 mph"
+        },
+        {
+          "time": "4 PM",
+          "icon": "⛅",
+          "temp": "69°F",
+          "wind": "5–8 mph"
+        },
+        {
+          "time": "6 PM",
+          "icon": "⛅",
+          "temp": "66°F",
+          "wind": "4–7 mph"
+        },
+        {
+          "time": "8 PM",
+          "icon": "☁️",
+          "temp": "60°F",
+          "wind": "3–6 mph"
+        }
+      ],
+      "sections": [
+        {
+          "type": "timeline",
+          "label": "Day Timeline",
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Open / Flexible Morning",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Keep it relaxed. No fixed plans until 10 AM — sleep in, coffee, wander."
+            },
+            {
+              "time": "10:00–\n11:30 AM",
+              "title": "Portland Japanese Garden",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": "https://maps.google.com/?q=Portland+Japanese+Garden+Oregon",
+              "tags": [
+                {
+                  "label": "Optional",
+                  "type": "backup"
+                }
+              ],
+              "note": "Peaceful Portland stop before lunch if the group wants it. Beautiful in May."
+            },
+            {
+              "time": "11:30 AM\nsharp ⚠️",
+              "title": "Hard Departure — Leave Portland",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": null,
+              "tags": [],
+              "note": "No \"just five more minutes.\" Leave by 11:30 AM sharp to reach Salty's on time."
+            },
+            {
+              "time": "12:00–\n2:00 PM",
+              "title": "Lunch — Salty's on the Columbia",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": "https://maps.google.com/?q=Salty%27s+on+the+Columbia+3839+NE+Marine+Dr+Portland+OR",
+              "tags": [
+                {
+                  "label": "Fixed stop · 2 hrs",
+                  "type": "preferred"
+                }
+              ],
+              "note": "3839 NE Marine Dr, Portland, OR 97211. Planned lunch reservation."
+            },
+            {
+              "time": "~3:45 PM",
+              "title": "Sahalie Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=Sahalie+Falls+Mt+Hood+Oregon",
+              "tags": [
+                {
+                  "label": "Main afternoon stop",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "Meadows Creek, Mt Hood, OR 97041. One of Oregon's most powerful waterfalls — thundering cascade right off the parking area."
+            },
+            {
+              "time": "If time\npermits",
+              "title": "Little Zigzag Falls",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": "https://maps.google.com/?q=Little+Zigzag+Falls+Mt+Hood+Oregon",
+              "tags": [
+                {
+                  "label": "If time permits",
+                  "type": "backup"
+                }
+              ],
+              "note": "A short, easy walk to a lovely hidden falls near Mt. Hood. Add it if daylight allows."
+            },
+            {
+              "time": "Evening /\nSunset",
+              "title": "Trillium Lake — Sunset Stop",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=Trillium+Lake+Mt+Hood+Oregon",
+              "tags": [
+                {
+                  "label": "Main evening stop",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "No walk planned — just arrive, enjoy the iconic Mt. Hood reflection, and keep it easy. Sunset at 8:27 PM."
+            },
+            {
+              "time": "Optional",
+              "title": "Mirror Lake Hike",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": "https://maps.google.com/?q=Mirror+Lake+Mt+Hood+Oregon",
+              "tags": [
+                {
+                  "label": "Not recommended",
+                  "type": "backup"
+                }
+              ],
+              "note": "4.3 miles, ~660 ft elevation gain. Only if the group discovers hidden Olympic-level enthusiasm after lunch."
+            }
+          ]
+        },
+        {
+          "type": "food_featured",
+          "label": "Lunch",
+          "item": {
+            "name": "Salty's on the Columbia",
+            "address": "3839 NE Marine Dr, Portland, OR 97211",
+            "note": "Fixed noon reservation",
+            "time": "12:00 PM",
+            "duration": "2 hrs",
+            "tags": [
+              "Planned stop",
+              "Waterfront dining"
+            ],
+            "maps_url": "https://maps.google.com/?q=Salty%27s+on+the+Columbia+3839+NE+Marine+Dr+Portland+OR"
+          }
+        },
+        {
+          "type": "decision",
+          "label": "Planned Stops",
+          "columns": 3,
+          "items": [
+            {
+              "badge": "Fixed",
+              "type": "preferred",
+              "name": "Salty's on the Columbia",
+              "desc": "Noon lunch. Hard departure from Portland by 11:30 AM.",
+              "maps_url": "https://maps.google.com/?q=Salty%27s+on+the+Columbia+3839+NE+Marine+Dr+Portland+OR"
+            },
+            {
+              "badge": "Afternoon",
+              "type": "preferred",
+              "name": "Sahalie Falls",
+              "desc": "Main waterfall stop after leaving Portland ~2 PM.",
+              "maps_url": "https://maps.google.com/?q=Sahalie+Falls+Mt+Hood+Oregon"
+            },
+            {
+              "badge": "Evening",
+              "type": "preferred",
+              "name": "Trillium Lake",
+              "desc": "Sunset stop — no walk, just the view. Mt. Hood reflection.",
+              "maps_url": "https://maps.google.com/?q=Trillium+Lake+Mt+Hood+Oregon"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": "May 7–11, 2026 Trip · Day 3 of 5",
+        "right": "Portland · Mt. Hood · Oregon"
+      }
+    },
+    {
+      "id": "day4",
+      "type": "day",
+      "nav": {
+        "date": "May 10",
+        "loc": "Silver Falls"
+      },
+      "header": {
+        "eyebrow": "Day Trip · May 10, 2026 · Sunday",
+        "title": "Silver Falls",
+        "subtitle": "State Park",
+        "route": [
+          "Hotel → Silver Falls",
+          "South Falls",
+          "→ Middle North Falls"
+        ],
+        "sunrise": "5:47 AM",
+        "sunset": "8:26 PM",
+        "weather_summary": "Cool morning · Warm sunny afternoon · Up to 72°F"
+      },
+      "weather": [
+        {
+          "time": "6 AM",
+          "icon": "☁️",
+          "temp": "49°F",
+          "wind": "4–6 mph"
+        },
+        {
+          "time": "8 AM",
+          "icon": "🌤️",
+          "temp": "57°F",
+          "wind": "4–6 mph"
+        },
+        {
+          "time": "10 AM",
+          "icon": "🌤️",
+          "temp": "64°F",
+          "wind": "5–7 mph"
+        },
+        {
+          "time": "12 PM",
+          "icon": "🌤️",
+          "temp": "70°F",
+          "wind": "6–8 mph"
+        },
+        {
+          "time": "2 PM",
+          "icon": "🌤️",
+          "temp": "72°F",
+          "wind": "6–8 mph"
+        },
+        {
+          "time": "4 PM",
+          "icon": "🌤️",
+          "temp": "71°F",
+          "wind": "6–8 mph"
+        },
+        {
+          "time": "6 PM",
+          "icon": "🌤️",
+          "temp": "68°F",
+          "wind": "5–7 mph"
+        },
+        {
+          "time": "8 PM",
+          "icon": "⛅",
+          "temp": "62°F",
+          "wind": "4–6 mph"
+        }
+      ],
+      "sections": [
+        {
+          "type": "timeline",
+          "label": "Day Timeline",
+          "items": [
+            {
+              "time": "Morning",
+              "title": "Depart Hotel",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Drive toward Silver Falls State Park, Oregon."
+            },
+            {
+              "time": "Arrival",
+              "title": "South Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.google.com/?q=South+Falls+Silver+Falls+State+Park+Oregon",
+              "tags": [
+                {
+                  "label": "Stop 1 · Main",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "One of the most iconic areas of the park. Start here — strong anchor point for the morning. Walk behind the falls for a memorable perspective."
+            },
+            {
+              "time": "Midday",
+              "title": "Lunch / Snack Break",
+              "dot": "accent",
+              "title_color": "amber",
+              "maps_url": null,
+              "tags": [
+                {
+                  "label": "Food stop",
+                  "type": "preferred"
+                }
+              ],
+              "note": "PanezaNellie nearby (~20 min away) if the group is hungry early. Salem options are slightly off-track."
+            },
+            {
+              "time": "Afternoon",
+              "title": "Middle North Falls",
+              "dot": "water",
+              "title_color": "water",
+              "maps_url": "https://maps.app.goo.gl/tpVPTgij1k3R6CrB6",
+              "tags": [
+                {
+                  "label": "Stop 2 · Main",
+                  "type": "waterfall"
+                }
+              ],
+              "note": "Use the planned parking location for this stop. → Open parking map"
+            },
+            {
+              "time": "Optional",
+              "title": "Additional Trail Sections",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Continue exploring nearby trail sections depending on group energy and timing."
+            },
+            {
+              "time": "Evening",
+              "title": "Return Drive",
+              "dot": "default",
+              "title_color": "default",
+              "maps_url": null,
+              "tags": [],
+              "note": "Head back for a relaxed evening. Sunset at 8:26 PM."
+            }
+          ]
+        },
+        {
+          "type": "food",
+          "label": "Food Options",
+          "subsections": [
+            {
+              "sublabel": "On the Way — Emergency Hunger Stop",
+              "sublabel_color": "amber",
+              "items": [
+                {
+                  "name": "PanezaNellie Breadstick Shoppe",
+                  "address": "111 NE Starr St, Sublimity, OR · ~20 min from park",
+                  "rating": 4.9,
+                  "cuisine": "Breadsticks · Pizza",
+                  "maps_url": "https://maps.google.com/?q=PanezaNellie+Breadstick+Shoppe+111+NE+Starr+St+Sublimity+OR",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sublabel": "Salem Area — Slightly Off Track",
+              "sublabel_color": "slate",
+              "items": [
+                {
+                  "name": "Encore Restaurant",
+                  "address": "195 High St NE, Salem, OR",
+                  "rating": 4.8,
+                  "cuisine": "Sit-down",
+                  "maps_url": "https://maps.google.com/?q=Encore+Restaurant+195+High+St+NE+Salem+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "Sweet Home Thai Cuisine",
+                  "address": "4140 River Rd NE, Keizer, OR",
+                  "rating": 4.8,
+                  "cuisine": "Thai",
+                  "maps_url": "https://maps.google.com/?q=Sweet+Home+Thai+Cuisine+4140+River+Rd+NE+Keizer+OR",
+                  "highlight": false
+                },
+                {
+                  "name": "La Margarita Restaurant",
+                  "address": "545 Ferry St SE, Salem, OR",
+                  "rating": 4.7,
+                  "cuisine": "Mexican",
+                  "maps_url": "https://maps.google.com/?q=La+Margarita+Restaurant+545+Ferry+St+SE+Salem+OR",
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "decision",
+          "label": "Planned Stops",
+          "columns": 2,
+          "items": [
+            {
+              "badge": "Stop 1",
+              "type": "preferred",
+              "name": "South Falls",
+              "desc": "Main anchor point. Start here first — iconic and accessible.",
+              "maps_url": "https://maps.google.com/?q=South+Falls+Silver+Falls+State+Park+Oregon"
+            },
+            {
+              "badge": "Stop 2",
+              "type": "preferred",
+              "name": "Middle North Falls",
+              "desc": "Use the provided parking spot. → Parking map",
+              "maps_url": "https://maps.app.goo.gl/tpVPTgij1k3R6CrB6"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "left": "May 7–11, 2026 Trip · Day 4 of 5",
+        "right": "Silver Falls · Oregon"
+      }
+    },
+    {
+      "id": "day5",
+      "type": "farewell",
+      "nav": {
+        "date": "May 11",
+        "loc": "Bye ✈️"
+      },
+      "emoji": "✈️",
+      "eyebrow": "May 11, 2026 · Day 5 of 5",
+      "title": "Adiós, Portland.",
+      "message": "Safe travels, everyone. Until the next adventure.",
+      "tagline": "May 7 – 11, 2026 · Oregon & Washington",
+      "footer": {
+        "left": "May 7–11, 2026 Trip · Day 5 of 5",
+        "right": "Safe travels"
+      },
+      "hotel_card": {
+        "type": "check_out",
+        "hotel_index": 0
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Best Western Plus Rivershore Hotel",
+      "address": "1900 Clackamette Dr, Oregon City, OR 97045",
+      "maps_url": "https://maps.app.goo.gl/BY6MbRTDSf3VnFbWA",
+      "check_in_date": "May 7",
+      "check_in_time": "3:00 PM",
+      "check_out_date": "May 11",
+      "check_out_time": "11:00 AM",
+      "confirmation": "",
+      "cancellation_policy": "N-A"
+    }
+  ]
+}
